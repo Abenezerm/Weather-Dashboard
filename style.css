@@ -12,12 +12,37 @@ body{
   color: white;
 }
 .content-body{
-  display: flex;
-  margin-left: 5%;
+
 }
 .content-body .search-bar{
-  
+  float: left;
+  margin-left: 5%;
+  height: 100%;
+
 }
 .content-body .current-Weather{
+  padding-left: 10px;
+  padding-top: 10px;
+  float: right;
+  width: 70%;
+  margin-right: 5%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+}
+.content-body .five-day-focast{
 
+  margin-left: 23.5%;
+  margin-right: 5%;
+  clear: right;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+#day-one, #day-two, #day-three, #day-four, #day-five{
+  margin-top: 5px;
+  background-color: white;
+  margin-left: 5px;
+  width: 20%;
 }
