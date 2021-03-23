@@ -1,0 +1,23 @@
+*{
+  margin-top: 0;
+}
+body{
+  margin: 0 0 0;
+  background: #B1B1B1;
+}
+.header{
+  text-align: center;
+  width: 100%;
+  background-color: #0A0708;
+  color: white;
+}
+.content-body{
+  display: flex;
+  margin-left: 5%;
+}
+.content-body .search-bar{
+  
+}
+.content-body .current-Weather{
+
+}
